@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+.title{
+    width: 40%;
+    background-color: aqua;
+}   
+
+.nav{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: space-around;
+    width: 60%;
+}
+.home,.about,.portifolio,.blog,.contatc{
+    font-weight: bold;
+}
+
+.subTitle{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 1vh;
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.text{
+    width: 40%;
+    text-align: end;
+}
+
+.imagens{
+    width: 60%;
+    margin-left: 5%;
+}
+.grid-container{
+    display: grid;
+    gap: 50px 50px;
+    width: 30%;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }

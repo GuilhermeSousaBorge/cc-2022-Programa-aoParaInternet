@@ -1,0 +1,15 @@
+th,tr,td{
+    border: 1px solid black;
+
+}
+
+li{
+    font-style: italic;
+}
+table{
+    width: 400px;
+}
+thead{
+    font-style: italic;
+    font-weight: bold;
+}
