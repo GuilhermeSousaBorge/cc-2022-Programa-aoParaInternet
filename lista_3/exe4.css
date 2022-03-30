@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    margin-left: 10vh;
+    margin-right: 10vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    gap: 1vh 1vh;
+}
+
+.item1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    grid-column: 1 / 5;
+    background-color: lightgray;
+}
+
+.item2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: tomato;
+    height: 10vh;
+}
+
+.item3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: lightgreen;
+    height: 10vh;
+}
+.item4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: lightskyblue;
+    height: 10vh;
+}
+.item5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: violet;
+    height: 10vh;
+}
+.item6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: orange;
+    height: 10vh;
+}
+.item7{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: plum;
+    height: 10vh;
+}
+.item8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: cyan;
+    height: 10vh;
+}
+.item9{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3vh;
+    background-color: yellow;
+    height: 10vh;
+}
+.item10{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    grid-column: 1 / 5;
+    background-color: lightgray;
+}

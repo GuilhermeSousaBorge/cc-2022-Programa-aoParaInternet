@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    margin: 3vh;
+    background-color: lightgrey;
+}
+.header-button{
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 10vh;
+    height: 3vh;
+    background-color: blue;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 3vh;
+    gap: 0.5vh;
+}
+
+.card-item{
+    width: 50vh;
+    justify-content: space-between;
+}
+
+.card-item-button{
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10vh;
+    height: 3vh;
+}
+
+.footer{
+    margin: 3vh;
+}
