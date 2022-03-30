@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(38, 38, 38);
+    color: white;
+    height: 5vh;
+    margin-left: 1vh;
+    margin-right: 1vh;
+}
+
+.left-side{
+    display: flex;
+
+}
+
+.left-side > button{
+    padding: 0.5vh;
+    margin: 0.5vh;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.right-side > button{
+    padding: 0.5vh;
+    margin: 0.5vh;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+    margin-top: 3vh;
+    background-color: lightgray;
+    height: 45vh;
+}
+
+.sidebar > a{
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    color: blue;
+}
+
+.main{
+    display: grid;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+    margin: 3vh;
+    background-color: lightgrey;
+}
+.header-button{
+    margin-top: 1vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    width: 10vh;
+    height: 3vh;
+    background-color: blue;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    margin: 3vh;
+    gap: 0.5vh;
+}
+
+.card-item{
+    width: 50vh;
+    justify-content: space-between;
+}
+
+.card-item-button{
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 10vh;
+    height: 3vh;
+}
+
+.footer{
+    margin: 3vh;
+}
