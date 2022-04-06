@@ -1,0 +1,51 @@
+
+
+
+.container{
+    display: grid;
+    width: 50vh;
+    margin: auto;
+    height: 50vh;
+    border: 2px solid purple;
+}
+
+.titulo{
+    display: flex;
+    background-image: url(https://picsum.photos/1000/200);
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.conteudo{
+    
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+.form_2{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_2 > input{
+    width: 45vh;
+    margin-bottom: 0.5vh;
+}
+
+.form_2 > button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid black;
+    border-radius: 8px ;
+    height: 3vh;
+    width: 25vh;
+    margin: auto;
+    margin-top: 0.5vh;
+}
