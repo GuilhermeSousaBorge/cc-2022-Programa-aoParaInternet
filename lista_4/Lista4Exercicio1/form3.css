@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    border: 1px solid green;
+    box-shadow: 1px 16px 0px -1px green;
+    -webkit-box-shadow: 1px 16px 0px -1px green;
+    -moz-box-shadow: 1px 16px 0px -1px green;
+    width: 50vh;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80vh;
+    margin-top: 5vh;
+}
+
+.form_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh;
+}
+.name{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.email{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.text{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.numero{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.site{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.button{
+    background-color: green;
+}

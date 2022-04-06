@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.form_4{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    
+}
+.formItem{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    width: 100%;
+}
+
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+.btnSub{
+    width: 8vh;
+    margin-left: 1vh;
+    background-color: cyan;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.btnCancel{
+    width: 8vh;
+}

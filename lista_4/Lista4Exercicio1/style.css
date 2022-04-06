@@ -1,0 +1,14 @@
+
+.indexContainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+}
+
+.indexContainer > Title{
+    display: grid;
+    justify-content: center;
+    background-color: red;
+    width: 100vh;
+}
