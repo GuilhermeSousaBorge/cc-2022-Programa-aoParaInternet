@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    width: 45vh;
+    height: 50vh;
+    flex-wrap: wrap;
+    background-color: lightpink;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75vh;
+}
+.title{
+    display: flex;
+    background-color: lightsalmon;
+}
+
+#tabela{
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#tabela > tr,td{
+    display: flex;
+    justify-content: space-between;
+    width: 45vh;
+}

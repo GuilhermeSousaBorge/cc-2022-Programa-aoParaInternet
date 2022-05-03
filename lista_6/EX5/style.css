@@ -1,0 +1,16 @@
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cracha{
+    display: flex;
+    flex-direction: column;
+    background-color: lightsalmon;
+    width: 45vh;
+    justify-content: center;
+    align-items: center;
+}
