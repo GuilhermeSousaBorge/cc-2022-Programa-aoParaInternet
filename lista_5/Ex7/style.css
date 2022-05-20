@@ -16,3 +16,12 @@
 .tabela{
     margin-bottom: 5vh;
 }
+
+.container > td{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    width: 50vh;
+    justify-content: space-between;
+}
