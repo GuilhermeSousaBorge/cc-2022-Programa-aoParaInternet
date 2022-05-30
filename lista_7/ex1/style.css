@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    width: 40vh;
+    height: 50vh;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.form_1{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: 60vh;
+    margin: 1vh;
+}
+.name{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.email{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.text{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.check{
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+}
+.button{
+    width:20vh;
+    height: 5vh;
+    color: gray;
+    margin-left: 5vh;
+}
